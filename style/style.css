@@ -1,0 +1,964 @@
+/* ------------------ Global Classes ---------------------*/
+.btn-dark {
+  border-radius: 0;
+  background-color: black;
+  border: black;
+  text-transform: uppercase;
+  font-size: 15px;
+  letter-spacing: 3px;
+  width: 145px;
+  padding: 0.5208333333333333vw 0px;
+  margin-top: 7px;
+  /* after left clicking */
+}
+
+.btn-dark:hover {
+  background-color: black;
+  border: black;
+}
+
+.btn-dark:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: black;
+}
+
+/* --------x--------- Global Classes ----------x----------*/
+/* ------------------home---------------------*/
+.home {
+  margin: 70px 0px;
+}
+
+.home .home-text h3 {
+  font-size: 1.4vw;
+  color: #858e99;
+  font-weight: normal;
+  letter-spacing: 3px;
+  line-height: 1.2;
+}
+
+.home .home-text h1 {
+  font-size: 6vw;
+  font-weight: 400;
+  line-height: 1.1;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Playfair Display, serif;
+}
+
+.home .home-text h4 {
+  font-size: 1.7vw;
+  font-weight: 400;
+  line-height: 1.2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.home .home-text h3,
+.home .home-text h4 {
+  font-family: Roboto, sans-serif;
+}
+
+.home .home-image {
+  background-color: black;
+}
+
+.home .home-image img {
+  width: 386px;
+}
+
+/* ------x------------home----------x----------*/
+/* ------------------ ZARA LOGO --------------------*/
+.zara-logo .logo-image img {
+  width: 350px;
+  height: 100%;
+  margin-right: 50px;
+}
+
+.zara-logo .logo-text {
+  text-align: justify;
+  margin-left: 30px;
+}
+
+.zara-logo .logo-text h1 {
+  font-size: 3.6vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.zara-logo .logo-text p {
+  font-size: 1.21vw;
+  color: #858e99;
+  margin-right: 40px;
+}
+
+/* ------x-----------ZARA LOGO ---------x----------*/
+/* ----------------- Black-1 --------------------*/
+.black-1 {
+  margin: 20px 0px;
+  background-color: black;
+  color: white;
+  padding: 55px 0px;
+}
+
+.black-1 .black-1-text {
+  padding-right: 23px;
+}
+
+.black-1 .black-1-text h1 {
+  font-size: 3.8vw;
+  line-height: 1.1;
+  font-family: Playfair Display, serif;
+}
+
+.black-1 .black-1-text p {
+  font-size: 1.3vw;
+  padding: 10px 0px;
+  text-align: justify;
+}
+
+.black-1 .black-1-text .btn-dark {
+  border-radius: 0;
+  background-color: white;
+  border: white;
+  color: black;
+  /* after left clicking */
+}
+
+.black-1 .black-1-text .btn-dark:hover {
+  background-color: #e6e6e6;
+}
+
+.black-1 .black-1-text .btn-dark:focus {
+  background-color: #ffffff;
+}
+
+.black-1 .black-1-img {
+  background-color: white;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  padding: 22px 15px;
+}
+
+.black-1 .black-1-img img {
+  width: 11vw;
+  margin: auto;
+}
+
+/* ------x---------- Black-1 ---------x----------*/
+/* ----------------- Contribution --------------------*/
+.contribution .bg-img {
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.contribution .contribution-text {
+  text-align: justify;
+  padding: 0px 30px;
+}
+
+.contribution .contribution-text p {
+  font-size: 1.4vw;
+  font-family: 'Syne', sans-serif;
+}
+
+/* ------x---------- Contribution ---------x----------*/
+/* ----------------- ZARA's Secret --------------------*/
+.secret .secret-text {
+  padding-left: 20px;
+}
+
+.secret .secret-text p {
+  font-size: 4.230769230769231vw;
+  font-family: 'Playfair Display', serif;
+}
+
+.secret .column-2 {
+  margin-left: -30px;
+}
+
+.secret .column-2 .secret-img {
+  height: 45vh;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* ------x---------- ZARA's Secret ---------x----------*/
+/* ----------------- Brand Story --------------------*/
+.black-2 {
+  margin: 5.384615384615385vw 0;
+  background-color: black;
+  color: white;
+  padding: 4.230769230769231vw 0;
+}
+
+.black-2 .order_1 .black-2-img {
+  background-color: white;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 30px;
+  padding: 22px 15px;
+}
+
+.black-2 .order_1 .black-2-img img {
+  width: 11vw;
+  margin: auto;
+}
+
+.black-2 .order_2 .black-2-text {
+  padding-right: 1.7692307692307692vw;
+  padding-left: 1.7692307692307692vw;
+}
+
+.black-2 .order_2 .black-2-text h1 {
+  font-size: 3.8vw;
+  line-height: 1.1;
+  font-family: Playfair Display, serif;
+}
+
+.black-2 .order_2 .black-2-text p {
+  font-size: 1.3vw;
+  padding: 0.7692307692307693vw 0;
+  text-align: justify;
+}
+
+.black-2 .order_2 .black-2-text .btn-dark {
+  border-radius: 0;
+  background-color: white;
+  border: white;
+  color: black;
+  /* after left clicking */
+}
+
+.black-2 .order_2 .black-2-text .btn-dark:hover {
+  background-color: #e6e6e6;
+}
+
+.black-2 .order_2 .black-2-text .btn-dark:focus {
+  background-color: #ffffff;
+}
+
+/* ------x---------- Brand Story ---------x----------*/
+/* ----------------- Fashion --------------------*/
+.fashion .gallery .bg-image,
+.fashion .gallery .bg-image1 {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+.fashion .gallery .bg-image {
+  height: 45vh;
+}
+
+.fashion .gallery .bg-image1 {
+  height: 60vh;
+}
+
+.fashion .gallery .gallery-text h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.1vw;
+}
+
+.fashion .g-background .gallery-background {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 100vh;
+}
+
+/* ------x---------- Fashion ---------x----------*/
+/* ----------------- Consumers --------------------*/
+.consumers {
+  margin: 2vw 0vw;
+}
+
+.consumers .order-1 .consumers-img img {
+  width: 100%;
+}
+
+.consumers .order-2 .consumers-text p {
+  font-family: 'Playfair Display', serif;
+  font-size: 2vw;
+}
+
+/* ------x---------- Consumers ---------x----------*/
+/* ----------------- Follow Us --------------------*/
+.follow-us {
+  background-color: black;
+  color: white;
+  padding: 5vw 0;
+}
+
+.follow-us .submition h1 {
+  font-size: 3vw;
+  font-family: 'Playfair Display', serif;
+  font-weight: 100;
+  padding-bottom: 1vw;
+}
+
+.follow-us .submition form input {
+  background: transparent;
+  margin: 0.6vw 0;
+}
+
+.follow-us .submition form .message {
+  padding: 4vw 0;
+}
+
+.follow-us .submition form textarea {
+  background: transparent;
+}
+
+.follow-us .submition .btn-dark {
+  border-radius: 0;
+  background-color: white;
+  border: white;
+  color: black;
+  /* after left clicking */
+}
+
+.follow-us .submition .btn-dark:hover {
+  background-color: #e6e6e6;
+}
+
+.follow-us .submition .btn-dark:focus {
+  background-color: #ffffff;
+}
+
+.follow-us .follow-img {
+  height: 100%;
+  width: 100%;
+}
+
+.follow-us .follow-img img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+/* ---------x-------- Follow Us -----------x---------*/
+/*------------------ Footer ----------------*/
+footer .text {
+  background-color: #333333;
+  padding: 20px 0px 10px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .text p {
+  color: #e6e6e6;
+}
+
+/*--------x--------- Footer ---------x------*/
+/* ----------------- Responsive --------------------*/
+/*-----------------Mobile--------------------*/
+@media only screen and (max-width: 767px) {
+  .home {
+    margin-bottom: 20px;
+  }
+  .home .home-text {
+    text-align: center;
+  }
+  .home .home-text .btn-dark {
+    height: auto;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 16px;
+    padding: 1.520833vw 0px;
+  }
+  .home .home-text h3 {
+    font-size: 4vw;
+  }
+  .home .home-text h1 {
+    font-size: 16vw;
+  }
+  .home .home-text h4 {
+    font-size: 5vw;
+  }
+  .home .home-image {
+    margin: 20px 0px;
+    background-color: black;
+  }
+  .home .home-image img {
+    width: 90%;
+  }
+  .zara-logo .logo-image img {
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+  }
+  .zara-logo .logo-text {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .zara-logo .logo-text h1 {
+    font-size: 15vw;
+  }
+  .zara-logo .logo-text p {
+    font-size: 5vw;
+    margin-right: 0px;
+    text-align: justify;
+    padding: 10px 4px;
+  }
+  .zara-logo .logo-text .btn-dark {
+    height: auto;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 16px;
+    padding: 1.520833vw 0px;
+  }
+  .black-1 {
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    padding: 55px 0px 35px 0px;
+  }
+  .black-1 .black-1-text {
+    padding-right: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .black-1 .black-1-text h1 {
+    font-size: 11vw;
+  }
+  .black-1 .black-1-text p {
+    font-size: 4.6vw;
+    padding: 12px 10px;
+  }
+  .black-1 .black-1-text .btn-dark {
+    height: auto;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 16px;
+    padding: 1.520833vw 0px;
+  }
+  .black-1 .black-1-img {
+    background-color: white;
+    height: auto;
+    margin-left: 0;
+    padding: 22px 15px;
+  }
+  .black-1 .black-1-img img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .contribution .order2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .contribution .order2 .row {
+    margin: 0;
+  }
+  .contribution .order2 .row .column1,
+  .contribution .order2 .row .column2,
+  .contribution .order2 .row .column3,
+  .contribution .order2 .row .column4 {
+    padding: 0;
+  }
+  .contribution .order2 .row .bg-img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 10px;
+  }
+  .contribution .order1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .contribution .order1 .contribution-text {
+    text-align: justify;
+    padding: 0px 15px;
+  }
+  .contribution .order1 .contribution-text p {
+    font-size: 4.5vw;
+    font-family: 'Syne', sans-serif;
+  }
+  .secret .column-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .secret .column-1 .secret-text {
+    padding-left: 0;
+  }
+  .secret .column-1 .secret-text p {
+    font-size: 9.375vw;
+  }
+  .secret .column-2 {
+    margin-left: 0;
+  }
+  .black-2 {
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    padding: 55px 0px 35px 0px;
+  }
+  .black-2 .order_1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .black-2 .order_1 .black-2-img {
+    background-color: white;
+    height: auto;
+    margin-left: 0;
+    padding: 22px 15px;
+  }
+  .black-2 .order_1 .black-2-img img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .black-2 .order_2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .black-2 .order_2 .black-2-text {
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .black-2 .order_2 .black-2-text h1 {
+    font-size: 11vw;
+  }
+  .black-2 .order_2 .black-2-text p {
+    font-size: 4.6vw;
+    padding: 12px 10px;
+  }
+  .black-2 .order_2 .black-2-text .btn-dark {
+    height: auto;
+    width: 100%;
+    margin-top: 7px;
+    font-size: 16px;
+    padding: 1.520833vw 0px;
+  }
+  .fashion .gallery .bg-image,
+  .fashion .gallery .bg-image1 {
+    margin-bottom: 20px;
+  }
+  .fashion .gallery .gallery-text {
+    text-align: center;
+  }
+  .fashion .gallery .gallery-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 7vw;
+  }
+  .fashion .g-background {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .fashion .g-background .gallery-background {
+    height: 75vh;
+  }
+  .consumers .order-1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .consumers .order-2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .consumers .order-2 .consumers-text {
+    text-align: center;
+  }
+  .consumers .order-2 .consumers-text p {
+    margin: 1.5vw 0 3vw 0;
+    font-size: 5.5vw;
+  }
+  .follow-us .submition h1 {
+    text-align: center;
+    font-size: 8vw;
+    padding-bottom: 3vw;
+  }
+  .follow-us .submition .btn-dark {
+    height: auto;
+    width: 100%;
+    margin: 7px 0;
+    font-size: 16px;
+    padding: 1.520833vw 0px;
+  }
+  .follow-us .follow-img {
+    height: 100%;
+  }
+  .follow-us .follow-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+/*---------x-------Mobile--------x-----------*/
+/*---------------- iPad & ipad Pro ---------------*/
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .home .home-text {
+    text-align: center;
+  }
+  .home .home-text h3 {
+    font-size: 4vw;
+  }
+  .home .home-text h1 {
+    font-size: 15vw;
+  }
+  .home .home-text h4 {
+    font-size: 5vw;
+  }
+  .home .home-text .btn-dark {
+    font-size: 24px;
+    width: 250px;
+    padding: 2vw 8vw;
+    margin: 20px 0px;
+  }
+  .home .home-image {
+    margin: 20px 0px;
+    background-color: black;
+  }
+  .home .home-image img {
+    width: 90%;
+  }
+  .zara-logo .logo-image img {
+    width: 100%;
+    height: 100%;
+    margin-right: 0px;
+    padding: 0px 15px;
+  }
+  .zara-logo .logo-text {
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 40px;
+  }
+  .zara-logo .logo-text h1 {
+    font-size: 15vw;
+  }
+  .zara-logo .logo-text p {
+    font-size: 5vw;
+    margin-right: 0px;
+    text-align: justify;
+    padding: 20px 15px;
+  }
+  .zara-logo .logo-text .btn-dark {
+    font-size: 24px;
+    width: 250px;
+    padding: 2vw 8vw;
+    margin: 20px 0px;
+  }
+  .black-1 {
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    padding: 55px 0px 45px 0px;
+  }
+  .black-1 .black-1-text {
+    padding-right: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .black-1 .black-1-text h1 {
+    font-size: 10vw;
+  }
+  .black-1 .black-1-text p {
+    font-size: 4.6vw;
+    padding: 15px 10px;
+  }
+  .black-1 .black-1-text .btn-dark {
+    font-size: 23px;
+    width: 250px;
+    padding: 2vw 8vw;
+    margin: 20px 0px;
+  }
+  .black-1 .black-1-img {
+    background-color: white;
+    height: auto;
+    margin-left: 0;
+    padding: 22px 15px;
+  }
+  .black-1 .black-1-img img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .contribution .order2 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .contribution .order2 .row {
+    margin: 0;
+  }
+  .contribution .order2 .row .column1,
+  .contribution .order2 .row .column2,
+  .contribution .order2 .row .column3,
+  .contribution .order2 .row .column4 {
+    padding: 0;
+  }
+  .contribution .order2 .row .bg-img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 30px;
+  }
+  .contribution .order1 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .contribution .order1 .contribution-text {
+    text-align: justify;
+    padding: 10px 15px;
+  }
+  .contribution .order1 .contribution-text p {
+    font-size: 4.5vw;
+    font-family: 'Syne', sans-serif;
+  }
+  .secret {
+    margin-bottom: 40px;
+  }
+  .secret .column-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    text-align: center;
+  }
+  .secret .column-1 .secret-text {
+    padding-left: 0;
+  }
+  .secret .column-1 .secret-text p {
+    font-size: 9.375vw;
+  }
+  .secret .column-2 {
+    margin-left: 0;
+  }
+  .black-2 {
+    margin: 20px 0px;
+    background-color: black;
+    color: white;
+    padding: 55px 0px 45px 0px;
+  }
+  .black-2 .order_1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .black-2 .order_1 .black-2-img {
+    background-color: white;
+    height: auto;
+    margin-left: 0;
+    padding: 22px 15px;
+  }
+  .black-2 .order_1 .black-2-img img {
+    width: 50%;
+    height: 100%;
+    margin: auto;
+  }
+  .black-2 .order_2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .black-2 .order_2 .black-2-text {
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  .black-2 .order_2 .black-2-text h1 {
+    font-size: 10vw;
+  }
+  .black-2 .order_2 .black-2-text p {
+    font-size: 4.6vw;
+    padding: 15px 10px;
+  }
+  .black-2 .order_2 .black-2-text .btn-dark {
+    font-size: 23px;
+    width: 250px;
+    padding: 2vw 8vw;
+    margin: 20px 0px;
+  }
+  .fashion .gallery .bg-image,
+  .fashion .gallery .bg-image1 {
+    margin-bottom: 20px;
+  }
+  .fashion .gallery .gallery-text {
+    text-align: center;
+  }
+  .fashion .gallery .gallery-text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 7vw;
+  }
+  .fashion .g-background {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .fashion .g-background .gallery-background {
+    height: 75vh;
+  }
+  .consumers .order-1 {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
+  .consumers .order-1 .consumers-img img {
+    width: 690px;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .consumers .order-2 {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  .consumers .order-2 .consumers-text {
+    text-align: center;
+    padding: 0 3vw;
+  }
+  .consumers .order-2 .consumers-text p {
+    margin: 2vw 0 4vw 0;
+    font-size: 5.5vw;
+  }
+  .follow-us .submition h1 {
+    text-align: center;
+    font-size: 9vw;
+    padding-bottom: 3vw;
+  }
+  .follow-us .submition form input {
+    background: transparent;
+    margin: 2vw 0;
+    padding: 3.8vw;
+  }
+  .follow-us .submition form input::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input:-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input::-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input::placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form textarea {
+    padding: 3vw;
+  }
+  .follow-us .submition form textarea::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form textarea:-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form textarea::-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form textarea::placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition .btn-dark {
+    display: block;
+    width: 250px;
+    padding: 2vw 8vw;
+    margin: 20px auto;
+    font-size: 25px;
+  }
+  .follow-us .follow-img {
+    height: 100%;
+  }
+  .follow-us .follow-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  footer p {
+    font-size: 20px;
+  }
+}
+
+/*------------- ipad pro only ---------*/
+@media screen and (width: 1024px) {
+  .home .home-text .btn-dark {
+    font-size: 30px;
+    width: 320px;
+    padding: 2vw 8vw;
+  }
+  .zara-logo .logo-text .btn-dark {
+    font-size: 30px;
+    width: 320px;
+    padding: 2vw 8vw;
+  }
+  .black-1 .black-1-text p {
+    padding: 30px 15px;
+  }
+  .black-1 .black-1-text .btn-dark {
+    font-size: 30px;
+    width: 320px;
+    padding: 2vw 8vw;
+  }
+  .black-2 .order_2 .black-2-text p {
+    padding: 30px 15px;
+  }
+  .black-2 .order_2 .black-2-text .btn-dark {
+    font-size: 30px;
+    width: 320px;
+    padding: 2vw 8vw;
+  }
+  .consumers .order-1 .consumers-img img {
+    width: 930px;
+  }
+  .follow-us .submition form input::-webkit-input-placeholder, .follow-us .submition form textarea::-webkit-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input:-ms-input-placeholder, .follow-us .submition form textarea:-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input::-ms-input-placeholder, .follow-us .submition form textarea::-ms-input-placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition form input::placeholder, .follow-us .submition form textarea::placeholder {
+    font-size: 25px;
+  }
+  .follow-us .submition .btn-dark {
+    font-size: 30px;
+    width: 320px;
+    padding: 2vw 8vw;
+  }
+  .follow-us .follow-img {
+    height: 100%;
+  }
+  .follow-us .follow-img img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  footer p {
+    font-size: 23px;
+  }
+}
+
+/*------x------- ipad pro only -----x----*/
+/*-------x-------- iPad & ipad Pro ----------x-----*/
+/* ------x---------- Responsive ----------x--------*/
+/*# sourceMappingURL=style.css.map */
